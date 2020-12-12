@@ -5,5 +5,3 @@ for i in range(10):
         print("偶数")
     else:
         print(i)
-        
-    
