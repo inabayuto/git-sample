@@ -1,7 +1,9 @@
-print("Hello wolrld git")
-print(3 + 4)
-for i in range(10):
-    if i % 2 == 0:
-        print("偶数")
+for i in range(2,21):
+    sosuu = 1
+    for j in range(2, i):
+        if i % j == 0:
+            sosuu = 0
+    if sosuu == 1:
+        print(i, '(素数)')
     else:
         print(i)
